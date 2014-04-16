@@ -1,0 +1,43 @@
+html { 
+	font-size: .8em; 
+}
+body, #wrapper {
+	font: normal normal 13px Helvetica;
+}
+h2, #wrapper h2, .heading2 { 
+	font-family: BebasNeue, Helvetica, Verdana, sans-serif;
+	font-size: 250%;
+	font-weight: normal; 
+	text-transform: uppercase;
+	margin: 15px 0 10px 0;
+}
+h3, #wrapper h3, .heading3 { 
+	font-family: BebasNeue, Helvetica, Verdana, sans-serif;
+	font-size: 150%; 
+	font-weight: normal;
+	color: #AD2221;
+	margin: 10px 0 5px 0;
+}
+h4, #wrapper h4, .heading4 { 
+	font-family: BebasNeue, Helvetica, Verdana, sans-serif; 
+	font-size: 125%;
+	font-weight: normal;
+}
+.quote {
+	width: 300px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+	text-indent: -1.8em;
+	line-height: 1.5em;
+	margin: 1.5em;
+}
+.quote:before {
+	content: " “ ";
+	font-size: xx-large;
+	font-weight: bold;
+}
+.quote:after {
+	content: " ” ";
+	font-size: xx-large;
+	font-weight: bold;
+}

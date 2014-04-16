@@ -1,0 +1,2 @@
+Cobalt
+Cobalt is Venture1's default theme.

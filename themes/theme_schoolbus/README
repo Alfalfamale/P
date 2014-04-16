@@ -1,0 +1,52 @@
+Schoolbus Template by DeWebmakers.nl
+A responsive SEO customizable theme for concrete5
+
+FEATURES:
+
+- Fully responsive for all devices
+- Special fixed menu for small mobile devices
+- Search Engine Optimized
+- Customizable background colors
+- Customizable fonts
+- Customizable Slideshow
+- Prefilled area's for novice users
+- Special webfont (included)
+- Editable logo (psd included)
+- Single pages fully themed
+- Lot's of global area's for you to fill
+- Two pagetypes (sidebar and full)
+
+
+INSTALLATION:
+
+1. Put this folder into the root/packages folder of your concrete5 website
+2. Install the package, then enable the theme
+3. Add the following to the config/site_theme_paths.php file (or create it when it does not exists).
+
+/* ==== start ==== */
+$v = View::getInstance();
+$v->setThemeByPath('/login', "schoolbus");
+$v->setThemeByPath('/page_forbidden', "schoolbus");
+$v->setThemeByPath('/page_not_found', "schoolbus");
+$v->setThemeByPath('/register', "schoolbus");
+/* ====  end  ==== */
+
+
+CONFIGURATION:
+1. Background colors and fonts
+Go to the theme here dashboard/pages/themes/ and click "customize"
+
+2. Logo
+Add an standard concrete image to the Sitewide Logo area instead of it's default.
+
+3. Social media links
+Add an standard content block to the Sitewide Footer Social area instead of it's default, 
+or change the url's in the template.
+
+4. Slideshow
+Put concrete's standard slideshow block in the Sitewide Slideshow area.
+Choose the "schoolbus" custom template in the template menu of the block.
+
+5. Basic blocks        
+Sidebar: use a content block with a "header 2" (H2) as a title. Underneath a pagelist of your choice.
+Footer Nav: use a content block with a "header 2" (H2) as a title. Optionally a pagelist or more content.

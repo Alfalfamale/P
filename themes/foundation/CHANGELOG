@@ -1,0 +1,5 @@
+1.0.0 - Initial release.
+1.0.5 - Removed bug where horizontal scrollbar would appear on screenwidths below 760 pixels.
+1.1   - [UNRELEASED] Removed contact form from dashboard page. Minor style changes.
+1.4   - Added new 'Ez Button' and 'Ez Alert' blocks; integrated Foundation 3 general styles; improved modal box behavior;
+        modified Home page type; changes to 'sticky footer'; improved support for tooltips; other minor tweaks. 

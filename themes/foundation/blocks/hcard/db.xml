@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+	<table name="bthCard">
+		<field name="bID" type="I">
+			<key />
+			<unsigned />
+		</field>
+		<field name="fullName" type="X2">
+		</field>
+		<field name="jtitle" type="X2">
+		</field>
+		<field name="orgName" type="X2">
+		</field>
+		<field name="phNumber" type="X2">
+		</field>
+		<field name="website" type="X2">
+		</field>
+	</table>
+</schema>
